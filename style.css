@@ -40,4 +40,29 @@ img {
 }
 
 @media (min-width: 760px) {
+	.main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 100px auto auto;
+	}
+
+	header {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.left {
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.right {
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	.content {
+		margin-top: 20px;
+		grid-row-start: 2;
+	}
 }
