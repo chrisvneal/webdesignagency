@@ -40,7 +40,4 @@ img {
 }
 
 @media (min-width: 760px) {
-	body {
-		background: red;
-	}
 }
